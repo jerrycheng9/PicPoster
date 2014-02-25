@@ -11,21 +11,21 @@ import android.graphics.Bitmap;
 public class PicPostModel {
 	
 	
-	private Bitmap picture;
+	//private Bitmap picture;
 	private String text;
 	private Date timestamp;
 	
 	
-	protected PicPostModel(Bitmap pic, String text, Date timestamp) {
-		this.picture = pic;
+	protected PicPostModel(String text, Date timestamp) {
+		//this.picture = picture;
 		this.text = text;
 		this.timestamp = timestamp;
 	}
 	
 	
-	public Bitmap getPicture() {
-		return this.picture;
-	}
+	//public Bitmap getPicture() {
+	//	return this.picture;
+	//}
 	
 	
 	public String getText() {

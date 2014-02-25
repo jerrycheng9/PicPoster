@@ -24,8 +24,9 @@ public class PicPosterModelList {
 	}
 	
 	
-	public void addPicPost(Bitmap pic, String text, Date timestamp) {
-		PicPostModel picPost = new PicPostModel(pic, text, timestamp);
+	public void addPicPost(Bitmap picture, String text, Date timestamp) {
+		//PicPostModel picPost = new PicPostModel(pic, text, timestamp);
+		PicPostModel picPost = new PicPostModel(text, timestamp);
 		this.list.add(picPost);
 		this.adapter.notifyDataSetChanged();
 	}

@@ -37,9 +37,9 @@ public class PicPostModelAdapter extends ArrayAdapter<PicPostModel> {
 		PicPostModel picPostModel = this.getItem(position);
 		if (picPostModel != null) {
 
-			ImageView picImageView = (ImageView)convertView.findViewById(R.id.pic_image_view);
-			if (picImageView != null)
-				picImageView.setImageBitmap(picPostModel.getPicture());
+			//ImageView picImageView = (ImageView)convertView.findViewById(R.id.pic_image_view);
+			//if (picImageView != null)
+			//	picImageView.setImageBitmap(picPostModel.getPicture());
 			
 			TextView picText = (TextView)convertView.findViewById(R.id.pic_text);
 			if (picText != null)
