@@ -31,13 +31,13 @@ public final class R {
         public static final int add_pic_button=0x7f080006;
         public static final int add_pic_edit_text=0x7f080005;
         public static final int add_pic_image_view=0x7f080004;
-        public static final int clear_button=0x7f080002;
         public static final int options_layout=0x7f080000;
         public static final int pic_image_view=0x7f080008;
         public static final int pic_post_list=0x7f080007;
         public static final int pic_text=0x7f080009;
         public static final int pic_timestamp=0x7f08000a;
-        public static final int refresh_button=0x7f080001;
+        public static final int search_button=0x7f080002;
+        public static final int search_posts_edit_text=0x7f080001;
     }
     public static final class layout {
         public static final int main_layout=0x7f030000;
@@ -52,10 +52,10 @@ public final class R {
         public static final int add_pic_edit_text_hint=0x7f050006;
         public static final int add_pic_image_description=0x7f050005;
         public static final int app_name=0x7f050000;
-        public static final int clear_button_text=0x7f050004;
         public static final int no_pic_text=0x7f050002;
         public static final int pic_image_description=0x7f050008;
-        public static final int refresh_button_text=0x7f050003;
+        public static final int search_button_text=0x7f050004;
+        public static final int search_posts_edit_text_hint=0x7f050003;
     }
     public static final class style {
         /** 

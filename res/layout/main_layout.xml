@@ -15,21 +15,20 @@
         android:layout_alignParentTop="true"
         android:orientation="horizontal" >
         
-        <Button
-            android:id="@+id/refresh_button"
+        <EditText
+            android:id="@+id/search_posts_edit_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="@string/refresh_button_text" 
-            android:onClick="refreshPosts"/>
+            android:layout_weight="1"
+            android:hint="@string/search_posts_edit_text_hint" />
         
         <Button
-            android:id="@+id/clear_button"
+            android:id="@+id/search_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="@string/clear_button_text"
-            android:onClick="clearPosts" />
+            android:text="@string/search_button_text" 
+            android:onClick="searchPosts"/>
         
     </LinearLayout>
     

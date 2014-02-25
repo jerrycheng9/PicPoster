@@ -19,6 +19,7 @@ public class PicPosterActivity extends Activity {
 	public static final int OBTAIN_PIC_REQUEST_CODE = 117;
 
 
+	EditText searchPostsEditText;
 	ImageView addPicImageView;
 	EditText addPicEditText;
 	ListView picPostList;
@@ -34,6 +35,7 @@ public class PicPosterActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_layout);
 
+		this.searchPostsEditText = (EditText)this.findViewById(R.id.search_posts_edit_text);
 		this.addPicImageView = (ImageView)this.findViewById(R.id.add_pic_image_view);
 		this.addPicEditText = (EditText)this.findViewById(R.id.add_pic_edit_text);
 		this.picPostList = (ListView)this.findViewById(R.id.pic_post_list);
@@ -71,12 +73,12 @@ public class PicPosterActivity extends Activity {
 	}
 
 
-	public void refreshPosts(View view) {
-		//TODO
-	}
-
-
-	public void clearPosts(View view) {
-		this.controller.clearModel();
+	public void searchPosts(View view) {
+		String searchTerm = this.searchPostsEditText.getText().toString();
+		
+		//TODO : perform search, update model, etc
+		
+		this.searchPostsEditText.setText(null);
+		this.searchPostsEditText.setHint(R.string.search_posts_edit_text_hint);
 	}
 }

@@ -16,7 +16,7 @@ public class PicPostModel {
 	private Date timestamp;
 	
 	
-	protected PicPostModel(String text, Date timestamp) {
+	public PicPostModel(String text, Date timestamp) {
 		//this.picture = picture;
 		this.text = text;
 		this.timestamp = timestamp;

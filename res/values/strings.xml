@@ -6,8 +6,8 @@
     
     <string name="no_pic_text">I have nothing to say!</string>
     
-    <string name="refresh_button_text">Refresh</string>
-    <string name="clear_button_text">Clear</string>
+    <string name="search_posts_edit_text_hint">Enter search....</string>
+    <string name="search_button_text">Go!</string>
 
     <string name="add_pic_image_description">Take a picture</string>
     <string name="add_pic_edit_text_hint">Enter text....</string>

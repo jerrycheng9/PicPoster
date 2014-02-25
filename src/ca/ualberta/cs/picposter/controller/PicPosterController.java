@@ -64,9 +64,4 @@ public class PicPosterController {
 		
 		this.model.addPicPost(pic, text, new Date());
 	}
-	
-	
-	public void clearModel() {
-		this.model.clear();
-	}
 }
